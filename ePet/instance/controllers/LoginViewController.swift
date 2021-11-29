@@ -1,13 +1,13 @@
 //
-//  ViewController.swift
+//  LoginViewController.swift
 //  ePet
 //
-//  Created by user202430 on 11/29/21.
+//  Created by Gabriel Araujo on 29/11/21.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,4 +16,3 @@ class ViewController: UIViewController {
 
 
 }
-
