@@ -12,7 +12,9 @@
         <!--Tab Bar Controller-->
         <scene sceneID="4rg-5g-7od">
             <objects>
-                <tabBarController id="XAn-Mi-ja1" sceneMemberID="viewController">
+                <tabBarController wantsFullScreenLayout="YES" modalPresentationStyle="fullScreen" id="XAn-Mi-ja1" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="cqF-0d-H9v"/>
+                    <splitViewMasterSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nhH-ZS-nDY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -22,6 +24,7 @@
                         <segue destination="dgL-wv-u00" kind="relationship" relationship="viewControllers" id="3Ou-CL-hMa"/>
                         <segue destination="nbJ-Ou-MUm" kind="relationship" relationship="viewControllers" id="lsL-SS-WNG"/>
                         <segue destination="KIW-XI-6BL" kind="relationship" relationship="viewControllers" id="m2g-U6-ib4"/>
+                        <segue destination="XTq-bl-yIc" kind="relationship" relationship="viewControllers" id="Ikm-XI-9kA"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LB5-eM-c0f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -59,7 +62,10 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Entrar"/>
                                 <connections>
-                                    <segue destination="XAn-Mi-ja1" kind="presentation" id="pv4-Ky-Mth"/>
+                                    <segue destination="XAn-Mi-ja1" kind="show" id="pv4-Ky-Mth">
+                                        <segue key="commit" inheritsFrom="parent" id="e0s-3t-bZE"/>
+                                        <segue key="preview" inheritsFrom="commit" id="jbp-pV-sjp"/>
+                                    </segue>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cadastrar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dU3-bx-vuB">
@@ -83,56 +89,113 @@
             <objects>
                 <viewController id="KIW-XI-6BL" userLabel="Cart" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wi0-2m-fTc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="TCp-LA-tDE"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Carrinho" image="cart" id="Dzu-48-UIo"/>
+                    <tabBarItem key="tabBarItem" title="" image="cart" id="Dzu-48-UIo"/>
                     <navigationItem key="navigationItem" id="UUB-Ou-IVx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pMd-Zl-8oq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3997" y="98"/>
+            <point key="canvasLocation" x="4635" y="-431"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Zuw-vT-Akq">
+            <objects>
+                <viewController id="Ywb-Nt-dyO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Zl-C4-amx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="043-EM-ptC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="KhR-Iz-JpG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f6V-v3-Nt5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3301" y="-1092"/>
         </scene>
         <!--Search-->
         <scene sceneID="3rG-5Z-J1Z">
             <objects>
                 <viewController id="dgL-wv-u00" userLabel="Search" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QRe-ok-L6h">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="center" fixedFrame="YES" placeholder="Produto, serviço, loja" translatesAutoresizingMaskIntoConstraints="NO" id="1q6-wa-lOY">
+                                <rect key="frame" x="20" y="115" width="317" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F8b-5o-zRf">
+                                <rect key="frame" x="337" y="122" width="71" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Filtro"/>
+                                <connections>
+                                    <segue destination="Ywb-Nt-dyO" kind="show" id="0WY-6u-BYi"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="pIV-ri-O17"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Pesquisar" image="search" id="ewI-M7-uIO"/>
+                    <tabBarItem key="tabBarItem" title="" image="search" id="ewI-M7-uIO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B1F-hC-fYS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2683" y="-431"/>
+            <point key="canvasLocation" x="2682.608695652174" y="-431.25"/>
         </scene>
-        <!--Filter-->
+        <!--Home-->
         <scene sceneID="YM4-s9-HJ6">
             <objects>
-                <viewController id="nbJ-Ou-MUm" userLabel="Filter" sceneMemberID="viewController">
+                <viewController id="nbJ-Ou-MUm" userLabel="Home" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5ry-Ry-M9b">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="dnx-09-sSq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Filtrar" image="filter" id="NhH-Ww-8zP"/>
+                    <tabBarItem key="tabBarItem" title="" image="home" id="NhH-Ww-8zP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5nz-s6-nz1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2683" y="518"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="jwt-au-OKi">
+            <objects>
+                <viewController id="XTq-bl-yIc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YeX-eJ-OPz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="9xw-zf-Sms"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="profile" id="QSu-uQ-Kap"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B7G-0H-XBW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4635" y="518"/>
+        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="pv4-Ky-Mth"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="cart" width="24" height="24"/>
-        <image name="filter" width="24" height="24"/>
+        <image name="home" width="28" height="28"/>
         <image name="logo" width="2433" height="841"/>
+        <image name="profile" width="32" height="32"/>
         <image name="search" width="24" height="24"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

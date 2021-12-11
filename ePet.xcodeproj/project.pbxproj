@@ -13,6 +13,8 @@
 		92CA85DC275522A70080AF88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92CA85DB275522A70080AF88 /* Assets.xcassets */; };
 		92CA85DF275522A70080AF88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92CA85DD275522A70080AF88 /* LaunchScreen.storyboard */; };
 		E585306727552CEB00D6675B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E585306627552CEB00D6675B /* LoginViewController.swift */; };
+		E5ADBE142764563900EC2025 /* PaymentView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5ADBE132764563900EC2025 /* PaymentView.storyboard */; };
+		E5ADBE162764564E00EC2025 /* SearchView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5ADBE152764564E00EC2025 /* SearchView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		92CA85DE275522A70080AF88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92CA85E0275522A70080AF88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E585306627552CEB00D6675B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E5ADBE132764563900EC2025 /* PaymentView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PaymentView.storyboard; sourceTree = "<group>"; };
+		E5ADBE152764564E00EC2025 /* SearchView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +131,8 @@
 			isa = PBXGroup;
 			children = (
 				92CA85D8275522A60080AF88 /* Main.storyboard */,
+				E5ADBE132764563900EC2025 /* PaymentView.storyboard */,
+				E5ADBE152764564E00EC2025 /* SearchView.storyboard */,
 			);
 			path = storyboards;
 			sourceTree = "<group>";
@@ -189,6 +195,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				92CA85DF275522A70080AF88 /* LaunchScreen.storyboard in Resources */,
+				E5ADBE162764564E00EC2025 /* SearchView.storyboard in Resources */,
+				E5ADBE142764563900EC2025 /* PaymentView.storyboard in Resources */,
 				92CA85DC275522A70080AF88 /* Assets.xcassets in Resources */,
 				92CA85DA275522A60080AF88 /* Main.storyboard in Resources */,
 			);
