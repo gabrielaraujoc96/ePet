@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92455EE1276533DB00DFF7BA /* LoginView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92455EE0276533DB00DFF7BA /* LoginView.storyboard */; };
+		92AB71A727655DD400B8ED7F /* NewUser.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92AB71A627655DD400B8ED7F /* NewUser.storyboard */; };
 		92CA85D3275522A60080AF88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CA85D2275522A60080AF88 /* AppDelegate.swift */; };
 		92CA85D5275522A60080AF88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CA85D4275522A60080AF88 /* SceneDelegate.swift */; };
 		92CA85DA275522A60080AF88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92CA85D8275522A60080AF88 /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		92455EE0276533DB00DFF7BA /* LoginView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginView.storyboard; sourceTree = "<group>"; };
+		92AB71A627655DD400B8ED7F /* NewUser.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewUser.storyboard; sourceTree = "<group>"; };
 		92CA85CF275522A60080AF88 /* ePet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ePet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92CA85D2275522A60080AF88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92CA85D4275522A60080AF88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 				92CA85D8275522A60080AF88 /* Main.storyboard */,
 				E5ADBE132764563900EC2025 /* PaymentView.storyboard */,
 				E5ADBE152764564E00EC2025 /* SearchView.storyboard */,
+				92455EE0276533DB00DFF7BA /* LoginView.storyboard */,
+				92AB71A627655DD400B8ED7F /* NewUser.storyboard */,
 			);
 			path = storyboards;
 			sourceTree = "<group>";
@@ -197,8 +203,10 @@
 				92CA85DF275522A70080AF88 /* LaunchScreen.storyboard in Resources */,
 				E5ADBE162764564E00EC2025 /* SearchView.storyboard in Resources */,
 				E5ADBE142764563900EC2025 /* PaymentView.storyboard in Resources */,
+				92AB71A727655DD400B8ED7F /* NewUser.storyboard in Resources */,
 				92CA85DC275522A70080AF88 /* Assets.xcassets in Resources */,
 				92CA85DA275522A60080AF88 /* Main.storyboard in Resources */,
+				92455EE1276533DB00DFF7BA /* LoginView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,10 +9,23 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+ 
+    @IBOutlet weak var txtLogin: UITextField!
+    
+    @IBOutlet weak var txtPasseword: UITextField!
+    
+    @IBAction func openAction(_ sender: Any) {
+    
+        if(txtLogin.text == "paula.rmelo@gmail.com" && txtPasseword.text == "1234"){
+          performSegue(withIdentifier: "Home", sender: "self")
+            
+        }else{
+            print("Nao foi possivel acessar")
+        }
+    
+    
+    
     }
-
+    
 
 }
