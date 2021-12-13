@@ -10,6 +10,15 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    func applicationDidFinishLaunching(_ application: UIApplication) {
+        let storyboard = UIStoryboard(name: "LoginView", bundle: nil)
+        let initialViewController = storyboard.instantiateViewController(withIdentifier: "NextVC")
+        let window = UIWindow()
+        window.rootViewController = initialViewController
+        window.makeKeyAndVisible()
+//        self.window?.rootViewController = initialViewController
+//        self.window?.rootViewController = initialViewController
+    }
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
