@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C71FFA22766F6FE0059E5CC /* CartView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C71FFA12766F6FE0059E5CC /* CartView.storyboard */; };
+		4C71FFA52766F7100059E5CC /* ProductView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C71FFA42766F7100059E5CC /* ProductView.storyboard */; };
 		92333FD52766B2FB0093F288 /* ConsultAcquisitionView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92333FD42766B2FB0093F288 /* ConsultAcquisitionView.storyboard */; };
 		92455EE1276533DB00DFF7BA /* LoginView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92455EE0276533DB00DFF7BA /* LoginView.storyboard */; };
 		92748A4B27663E4200057EDA /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92748A4A27663E4200057EDA /* HomeView.storyboard */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C71FFA12766F6FE0059E5CC /* CartView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CartView.storyboard; sourceTree = "<group>"; };
+		4C71FFA42766F7100059E5CC /* ProductView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProductView.storyboard; sourceTree = "<group>"; };
 		92333FD42766B2FB0093F288 /* ConsultAcquisitionView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConsultAcquisitionView.storyboard; sourceTree = "<group>"; };
 		92455EE0276533DB00DFF7BA /* LoginView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginView.storyboard; sourceTree = "<group>"; };
 		92748A4A27663E4200057EDA /* HomeView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeView.storyboard; sourceTree = "<group>"; };
@@ -145,6 +149,8 @@
 				92AB71A9276561E400B8ED7F /* UserRegistrationView.storyboard */,
 				92748A4A27663E4200057EDA /* HomeView.storyboard */,
 				92333FD42766B2FB0093F288 /* ConsultAcquisitionView.storyboard */,
+				4C71FFA12766F6FE0059E5CC /* CartView.storyboard */,
+				4C71FFA42766F7100059E5CC /* ProductView.storyboard */,
 			);
 			path = storyboards;
 			sourceTree = "<group>";
@@ -207,8 +213,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				92CA85DF275522A70080AF88 /* LaunchScreen.storyboard in Resources */,
+				4C71FFA52766F7100059E5CC /* ProductView.storyboard in Resources */,
 				E5ADBE162764564E00EC2025 /* SearchView.storyboard in Resources */,
 				E5ADBE142764563900EC2025 /* PaymentView.storyboard in Resources */,
+				4C71FFA22766F6FE0059E5CC /* CartView.storyboard in Resources */,
 				92333FD52766B2FB0093F288 /* ConsultAcquisitionView.storyboard in Resources */,
 				92AB71AA276561E400B8ED7F /* UserRegistrationView.storyboard in Resources */,
 				92CA85DC275522A70080AF88 /* Assets.xcassets in Resources */,
