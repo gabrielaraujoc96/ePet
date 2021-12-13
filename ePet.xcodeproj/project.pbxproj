@@ -10,6 +10,7 @@
 		4C71FFA22766F6FE0059E5CC /* CartView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C71FFA12766F6FE0059E5CC /* CartView.storyboard */; };
 		4C71FFA52766F7100059E5CC /* ProductView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C71FFA42766F7100059E5CC /* ProductView.storyboard */; };
 		92333FD52766B2FB0093F288 /* ConsultAcquisitionView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92333FD42766B2FB0093F288 /* ConsultAcquisitionView.storyboard */; };
+		925A0723276704CF00A6177A /* ModifyRegistrationView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 925A0722276704CF00A6177A /* ModifyRegistrationView.storyboard */; };
 		92748A4B27663E4200057EDA /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92748A4A27663E4200057EDA /* HomeView.storyboard */; };
 		92AB71AA276561E400B8ED7F /* UserRegistrationView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92AB71A9276561E400B8ED7F /* UserRegistrationView.storyboard */; };
 		92CA85D3275522A60080AF88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CA85D2275522A60080AF88 /* AppDelegate.swift */; };
@@ -29,6 +30,7 @@
 		4C71FFA12766F6FE0059E5CC /* CartView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CartView.storyboard; sourceTree = "<group>"; };
 		4C71FFA42766F7100059E5CC /* ProductView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProductView.storyboard; sourceTree = "<group>"; };
 		92333FD42766B2FB0093F288 /* ConsultAcquisitionView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConsultAcquisitionView.storyboard; sourceTree = "<group>"; };
+		925A0722276704CF00A6177A /* ModifyRegistrationView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ModifyRegistrationView.storyboard; sourceTree = "<group>"; };
 		92748A4A27663E4200057EDA /* HomeView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeView.storyboard; sourceTree = "<group>"; };
 		92AB71A9276561E400B8ED7F /* UserRegistrationView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserRegistrationView.storyboard; sourceTree = "<group>"; };
 		92CA85CF275522A60080AF88 /* ePet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ePet.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -155,8 +157,12 @@
 				92AB71A9276561E400B8ED7F /* UserRegistrationView.storyboard */,
 				92748A4A27663E4200057EDA /* HomeView.storyboard */,
 				92333FD42766B2FB0093F288 /* ConsultAcquisitionView.storyboard */,
+<<<<<<< HEAD
 				4C71FFA12766F6FE0059E5CC /* CartView.storyboard */,
 				4C71FFA42766F7100059E5CC /* ProductView.storyboard */,
+=======
+				925A0722276704CF00A6177A /* ModifyRegistrationView.storyboard */,
+>>>>>>> a711769ef80332990ad5d95e8da834b8b4af6fbc
 			);
 			path = storyboards;
 			sourceTree = "<group>";
@@ -224,6 +230,7 @@
 				E5ADBE142764563900EC2025 /* PaymentView.storyboard in Resources */,
 				4C71FFA22766F6FE0059E5CC /* CartView.storyboard in Resources */,
 				92333FD52766B2FB0093F288 /* ConsultAcquisitionView.storyboard in Resources */,
+				925A0723276704CF00A6177A /* ModifyRegistrationView.storyboard in Resources */,
 				92AB71AA276561E400B8ED7F /* UserRegistrationView.storyboard in Resources */,
 				92CA85DC275522A70080AF88 /* Assets.xcassets in Resources */,
 				92CA85DA275522A60080AF88 /* Main.storyboard in Resources */,
