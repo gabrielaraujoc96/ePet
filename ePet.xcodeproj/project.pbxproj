@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		92333FD52766B2FB0093F288 /* ConsultAcquisitionView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92333FD42766B2FB0093F288 /* ConsultAcquisitionView.storyboard */; };
-		92455EE1276533DB00DFF7BA /* LoginView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92455EE0276533DB00DFF7BA /* LoginView.storyboard */; };
 		92748A4B27663E4200057EDA /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92748A4A27663E4200057EDA /* HomeView.storyboard */; };
 		92AB71AA276561E400B8ED7F /* UserRegistrationView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92AB71A9276561E400B8ED7F /* UserRegistrationView.storyboard */; };
 		92CA85D3275522A60080AF88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CA85D2275522A60080AF88 /* AppDelegate.swift */; };
@@ -19,11 +18,13 @@
 		E585306727552CEB00D6675B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E585306627552CEB00D6675B /* LoginViewController.swift */; };
 		E5ADBE142764563900EC2025 /* PaymentView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5ADBE132764563900EC2025 /* PaymentView.storyboard */; };
 		E5ADBE162764564E00EC2025 /* SearchView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5ADBE152764564E00EC2025 /* SearchView.storyboard */; };
+		E5ADBE1A2766FC2100EC2025 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ADBE192766FC2100EC2025 /* SearchViewController.swift */; };
+		E5ADBE1C2766FC7700EC2025 /* CardItemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ADBE1B2766FC7700EC2025 /* CardItemViewCell.swift */; };
+		E5ADBE1E2766FCD100EC2025 /* CardItemViewCell.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5ADBE1D2766FCD100EC2025 /* CardItemViewCell.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		92333FD42766B2FB0093F288 /* ConsultAcquisitionView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConsultAcquisitionView.storyboard; sourceTree = "<group>"; };
-		92455EE0276533DB00DFF7BA /* LoginView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginView.storyboard; sourceTree = "<group>"; };
 		92748A4A27663E4200057EDA /* HomeView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeView.storyboard; sourceTree = "<group>"; };
 		92AB71A9276561E400B8ED7F /* UserRegistrationView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserRegistrationView.storyboard; sourceTree = "<group>"; };
 		92CA85CF275522A60080AF88 /* ePet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ePet.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +37,9 @@
 		E585306627552CEB00D6675B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E5ADBE132764563900EC2025 /* PaymentView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PaymentView.storyboard; sourceTree = "<group>"; };
 		E5ADBE152764564E00EC2025 /* SearchView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchView.storyboard; sourceTree = "<group>"; };
+		E5ADBE192766FC2100EC2025 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		E5ADBE1B2766FC7700EC2025 /* CardItemViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardItemViewCell.swift; sourceTree = "<group>"; };
+		E5ADBE1D2766FCD100EC2025 /* CardItemViewCell.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CardItemViewCell.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 		E58530602755296100D6675B /* storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				E5ADBE1D2766FCD100EC2025 /* CardItemViewCell.storyboard */,
 			);
 			path = storyboards;
 			sourceTree = "<group>";
@@ -109,6 +114,7 @@
 		E58530612755296700D6675B /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E5ADBE1B2766FC7700EC2025 /* CardItemViewCell.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -131,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				E585306627552CEB00D6675B /* LoginViewController.swift */,
+				E5ADBE192766FC2100EC2025 /* SearchViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -141,7 +148,6 @@
 				92CA85D8275522A60080AF88 /* Main.storyboard */,
 				E5ADBE132764563900EC2025 /* PaymentView.storyboard */,
 				E5ADBE152764564E00EC2025 /* SearchView.storyboard */,
-				92455EE0276533DB00DFF7BA /* LoginView.storyboard */,
 				92AB71A9276561E400B8ED7F /* UserRegistrationView.storyboard */,
 				92748A4A27663E4200057EDA /* HomeView.storyboard */,
 				92333FD42766B2FB0093F288 /* ConsultAcquisitionView.storyboard */,
@@ -213,8 +219,8 @@
 				92AB71AA276561E400B8ED7F /* UserRegistrationView.storyboard in Resources */,
 				92CA85DC275522A70080AF88 /* Assets.xcassets in Resources */,
 				92CA85DA275522A60080AF88 /* Main.storyboard in Resources */,
+				E5ADBE1E2766FCD100EC2025 /* CardItemViewCell.storyboard in Resources */,
 				92748A4B27663E4200057EDA /* HomeView.storyboard in Resources */,
-				92455EE1276533DB00DFF7BA /* LoginView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +233,9 @@
 			files = (
 				E585306727552CEB00D6675B /* LoginViewController.swift in Sources */,
 				92CA85D3275522A60080AF88 /* AppDelegate.swift in Sources */,
+				E5ADBE1A2766FC2100EC2025 /* SearchViewController.swift in Sources */,
 				92CA85D5275522A60080AF88 /* SceneDelegate.swift in Sources */,
+				E5ADBE1C2766FC7700EC2025 /* CardItemViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
