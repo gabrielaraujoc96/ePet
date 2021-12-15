@@ -10,7 +10,17 @@
 		4C71FFA22766F6FE0059E5CC /* CartView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C71FFA12766F6FE0059E5CC /* CartView.storyboard */; };
 		4C71FFA52766F7100059E5CC /* ProductView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C71FFA42766F7100059E5CC /* ProductView.storyboard */; };
 		92333FD52766B2FB0093F288 /* ConsultAcquisitionView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92333FD42766B2FB0093F288 /* ConsultAcquisitionView.storyboard */; };
+		9234180D2769011D0099D7EF /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9234180C2769011D0099D7EF /* Person.swift */; };
+		923418102769060D0099D7EF /* EmployeeEPet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9234180F2769060D0099D7EF /* EmployeeEPet.swift */; };
+		9234181327690C2C0099D7EF /* ClientEPet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9234181227690C2C0099D7EF /* ClientEPet.swift */; };
+		9234181627690D1D0099D7EF /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9234181527690D1D0099D7EF /* Address.swift */; };
+		92341819276910C90099D7EF /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92341818276910C90099D7EF /* Product.swift */; };
 		925A0723276704CF00A6177A /* ModifyRegistrationView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 925A0722276704CF00A6177A /* ModifyRegistrationView.storyboard */; };
+		92957410276912E70006F5EC /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9295740F276912E70006F5EC /* Brand.swift */; };
+		92957413276917610006F5EC /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92957412276917610006F5EC /* Food.swift */; };
+		92A7B84D276970AD00B4560A /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A7B84C276970AD00B4560A /* Category.swift */; };
+		92A7B850276972E900B4560A /* CompositeCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A7B84F276972E900B4560A /* CompositeCategory.swift */; };
+		92A7B857276978F600B4560A /* LeafCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A7B856276978F600B4560A /* LeafCategory.swift */; };
 		92AB71AA276561E400B8ED7F /* UserRegistrationView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92AB71A9276561E400B8ED7F /* UserRegistrationView.storyboard */; };
 		92CA85D3275522A60080AF88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CA85D2275522A60080AF88 /* AppDelegate.swift */; };
 		92CA85D5275522A60080AF88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CA85D4275522A60080AF88 /* SceneDelegate.swift */; };
@@ -28,7 +38,17 @@
 		4C71FFA12766F6FE0059E5CC /* CartView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CartView.storyboard; sourceTree = "<group>"; };
 		4C71FFA42766F7100059E5CC /* ProductView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProductView.storyboard; sourceTree = "<group>"; };
 		92333FD42766B2FB0093F288 /* ConsultAcquisitionView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConsultAcquisitionView.storyboard; sourceTree = "<group>"; };
+		9234180C2769011D0099D7EF /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Person.swift; path = ePet/instance/controllers/Person.swift; sourceTree = SOURCE_ROOT; };
+		9234180F2769060D0099D7EF /* EmployeeEPet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EmployeeEPet.swift; path = ePet/instance/controllers/EmployeeEPet.swift; sourceTree = SOURCE_ROOT; };
+		9234181227690C2C0099D7EF /* ClientEPet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ClientEPet.swift; path = ePet/instance/controllers/ClientEPet.swift; sourceTree = SOURCE_ROOT; };
+		9234181527690D1D0099D7EF /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Address.swift; path = ePet/instance/controllers/Address.swift; sourceTree = SOURCE_ROOT; };
+		92341818276910C90099D7EF /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Product.swift; path = ePet/instance/controllers/Product.swift; sourceTree = SOURCE_ROOT; };
 		925A0722276704CF00A6177A /* ModifyRegistrationView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ModifyRegistrationView.storyboard; sourceTree = "<group>"; };
+		9295740F276912E70006F5EC /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Brand.swift; path = ePet/instance/controllers/Brand.swift; sourceTree = SOURCE_ROOT; };
+		92957412276917610006F5EC /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Food.swift; path = ePet/instance/controllers/Food.swift; sourceTree = SOURCE_ROOT; };
+		92A7B84C276970AD00B4560A /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Category.swift; path = ePet/instance/controllers/Category.swift; sourceTree = SOURCE_ROOT; };
+		92A7B84F276972E900B4560A /* CompositeCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CompositeCategory.swift; path = ePet/instance/controllers/CompositeCategory.swift; sourceTree = SOURCE_ROOT; };
+		92A7B856276978F600B4560A /* LeafCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LeafCategory.swift; path = ePet/instance/controllers/LeafCategory.swift; sourceTree = SOURCE_ROOT; };
 		92AB71A9276561E400B8ED7F /* UserRegistrationView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserRegistrationView.storyboard; sourceTree = "<group>"; };
 		92CA85CF275522A60080AF88 /* ePet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ePet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92CA85D2275522A60080AF88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -124,6 +144,14 @@
 		E58530622755296E00D6675B /* models */ = {
 			isa = PBXGroup;
 			children = (
+				9234180C2769011D0099D7EF /* Person.swift */,
+				9234180F2769060D0099D7EF /* EmployeeEPet.swift */,
+				9234181227690C2C0099D7EF /* ClientEPet.swift */,
+				92341818276910C90099D7EF /* Product.swift */,
+				92957412276917610006F5EC /* Food.swift */,
+				92A7B84C276970AD00B4560A /* Category.swift */,
+				92A7B84F276972E900B4560A /* CompositeCategory.swift */,
+				92A7B856276978F600B4560A /* LeafCategory.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -131,6 +159,8 @@
 		E5853063275529A900D6675B /* models */ = {
 			isa = PBXGroup;
 			children = (
+				9234181527690D1D0099D7EF /* Address.swift */,
+				9295740F276912E70006F5EC /* Brand.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -235,9 +265,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9234181627690D1D0099D7EF /* Address.swift in Sources */,
+				92A7B850276972E900B4560A /* CompositeCategory.swift in Sources */,
+				9234181327690C2C0099D7EF /* ClientEPet.swift in Sources */,
+				92957410276912E70006F5EC /* Brand.swift in Sources */,
+				9234180D2769011D0099D7EF /* Person.swift in Sources */,
 				E585306727552CEB00D6675B /* LoginViewController.swift in Sources */,
+				92957413276917610006F5EC /* Food.swift in Sources */,
+				92A7B857276978F600B4560A /* LeafCategory.swift in Sources */,
 				92CA85D3275522A60080AF88 /* AppDelegate.swift in Sources */,
+				923418102769060D0099D7EF /* EmployeeEPet.swift in Sources */,
 				E5ADBE1A2766FC2100EC2025 /* SearchViewController.swift in Sources */,
+				92A7B84D276970AD00B4560A /* Category.swift in Sources */,
+				92341819276910C90099D7EF /* Product.swift in Sources */,
 				92CA85D5275522A60080AF88 /* SceneDelegate.swift in Sources */,
 				E5ADBE1C2766FC7700EC2025 /* CardItemViewCell.swift in Sources */,
 			);
