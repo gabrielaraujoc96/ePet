@@ -7,7 +7,7 @@
 
 import Foundation
 
-class ClientEPet:Person{
+class ClientEPet:User{
     var registrationDate: Date
     //var occupation:
     

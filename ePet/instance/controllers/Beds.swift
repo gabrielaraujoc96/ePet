@@ -12,11 +12,11 @@ class Beds:Product{
     var material: String
     var color: String
     
-    init(type: String, material: String,color: String, descriptionProduct: String, technicalInf: String, costValue: Double, valueSell: Double, lifestage: String, breaedSize: String){
+    init(type: String, material: String,color: String, descriptionProduct: String, technicalInf: String, costValue: Double, valueSell: Double, brand: Brand, lifestage: String, breaedSize: String){
         self.type = type
         self.material = material
         self.color = color
-        super.init(descriptionProduct: descriptionProduct, technicalInf: technicalInf, costValue: costValue, valueSell: valueSell, lifestage: lifestage, breaedSize: breaedSize)
+        super.init(descriptionProduct: descriptionProduct, technicalInf: technicalInf, costValue: costValue, valueSell: valueSell, brand: brand, lifestage: lifestage, breaedSize: breaedSize)
         
     }
     

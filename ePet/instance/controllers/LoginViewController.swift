@@ -9,16 +9,4 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
- 
-//    @IBOutlet weak var txtUser: UITextField!
-//
-//    @IBOutlet weak var txtPassword: UITextField!
-    
-           
-    
-    
-    
- 
-    
-
 }

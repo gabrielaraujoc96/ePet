@@ -12,11 +12,11 @@ class Food:Product{
     var dye:Bool
     var level: String
     
-    init(formats:String, dye:Bool, level: String,color: String, descriptionProduct: String, technicalInf: String, costValue: Double, valueSell: Double, lifestage: String, breaedSize: String){
+    init(formats:String, dye:Bool, level: String,color: String, descriptionProduct: String, technicalInf: String, costValue: Double, valueSell: Double, brand: Brand, lifestage: String, breaedSize: String){
         self.formats = formats
         self.dye = dye
         self.level = level
-        super.init(descriptionProduct: descriptionProduct, technicalInf: technicalInf, costValue: costValue, valueSell: valueSell, lifestage: lifestage, breaedSize: breaedSize)
+        super.init(descriptionProduct: descriptionProduct, technicalInf: technicalInf, costValue: costValue, valueSell: valueSell, brand: brand, lifestage: lifestage, breaedSize: breaedSize)
         
     }
     

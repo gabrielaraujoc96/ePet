@@ -14,15 +14,16 @@ class Product{
     var technicalInf: String
     var costValue:Double
     var valueSell: Double
-    //var brand:Brand
+    var brand:Brand
     var lifestage:String
     var breaedSize:String
     
-    init(descriptionProduct:String, technicalInf: String, costValue:Double, valueSell: Double, lifestage:String,breaedSize:String){
+    init(descriptionProduct:String, technicalInf: String, costValue:Double, valueSell: Double, brand: Brand, lifestage:String,breaedSize:String){
         self.descriptionProduct = descriptionProduct
         self.technicalInf = technicalInf
         self.costValue = costValue
         self.valueSell = valueSell
+        self.brand = brand
         self.lifestage = lifestage
         self.breaedSize = breaedSize
     }

@@ -6,7 +6,7 @@
 //
 
 import Foundation
-class EmployeeEPet:Person{
+class EmployeeEPet:User{
     var registrationDate: Date
     //var occupation:
     

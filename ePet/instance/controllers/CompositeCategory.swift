@@ -20,9 +20,11 @@ class CompositeCategory:Category{
         categoryComponents.append(categoryComponent)
         
     }
-    override func remove(categoryComponent: Category){
-        //categoryComponents.remove(categoryComponent)
-    }
+//    override func remove(categoryComponent: Category){
+//        if let index = categoryComponents.firstIndex(of: categoryComponent) {
+//            categoryComponents.remove(at: index)
+//        }
+//    }
     
     /* override func getList(categoryComponent: Category)->[Category]{
         return categoryComponents

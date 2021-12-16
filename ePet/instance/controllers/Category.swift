@@ -22,9 +22,4 @@ class Category{
     func remove(categoryComponent: Category){
         
     }
-    /*func getList()->Category{
-        asseert(false, :"Implementar")
-    }*/
-      
-    
 }

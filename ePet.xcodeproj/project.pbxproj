@@ -16,7 +16,6 @@
 		9202B3D6276A9106000DD444 /* BankSlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9202B3D5276A9106000DD444 /* BankSlip.swift */; };
 		9202B3D9276A9283000DD444 /* WireTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9202B3D8276A9283000DD444 /* WireTransfer.swift */; };
 		92333FD52766B2FB0093F288 /* ConsultAcquisitionView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92333FD42766B2FB0093F288 /* ConsultAcquisitionView.storyboard */; };
-		9234180D2769011D0099D7EF /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9234180C2769011D0099D7EF /* Person.swift */; };
 		923418102769060D0099D7EF /* EmployeeEPet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9234180F2769060D0099D7EF /* EmployeeEPet.swift */; };
 		9234181327690C2C0099D7EF /* ClientEPet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9234181227690C2C0099D7EF /* ClientEPet.swift */; };
 		9234181627690D1D0099D7EF /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9234181527690D1D0099D7EF /* Address.swift */; };
@@ -33,11 +32,9 @@
 		92CA85DA275522A60080AF88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92CA85D8275522A60080AF88 /* Main.storyboard */; };
 		92CA85DC275522A70080AF88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92CA85DB275522A70080AF88 /* Assets.xcassets */; };
 		92CA85DF275522A70080AF88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92CA85DD275522A70080AF88 /* LaunchScreen.storyboard */; };
+		E5227099276ABE8900215AA9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5227098276ABE8900215AA9 /* User.swift */; };
 		E585306727552CEB00D6675B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E585306627552CEB00D6675B /* LoginViewController.swift */; };
-		E5ADBE142764563900EC2025 /* PaymentView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5ADBE132764563900EC2025 /* PaymentView.storyboard */; };
 		E5ADBE1A2766FC2100EC2025 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ADBE192766FC2100EC2025 /* SearchViewController.swift */; };
-		E5ADBE1C2766FC7700EC2025 /* CardItemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ADBE1B2766FC7700EC2025 /* CardItemViewCell.swift */; };
-		E5ADBE1E2766FCD100EC2025 /* CardItemViewCell.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5ADBE1D2766FCD100EC2025 /* CardItemViewCell.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,7 +47,6 @@
 		9202B3D5276A9106000DD444 /* BankSlip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BankSlip.swift; path = ePet/instance/controllers/BankSlip.swift; sourceTree = SOURCE_ROOT; };
 		9202B3D8276A9283000DD444 /* WireTransfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WireTransfer.swift; path = ePet/instance/controllers/WireTransfer.swift; sourceTree = SOURCE_ROOT; };
 		92333FD42766B2FB0093F288 /* ConsultAcquisitionView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConsultAcquisitionView.storyboard; sourceTree = "<group>"; };
-		9234180C2769011D0099D7EF /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Person.swift; path = ePet/instance/controllers/Person.swift; sourceTree = SOURCE_ROOT; };
 		9234180F2769060D0099D7EF /* EmployeeEPet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EmployeeEPet.swift; path = ePet/instance/controllers/EmployeeEPet.swift; sourceTree = SOURCE_ROOT; };
 		9234181227690C2C0099D7EF /* ClientEPet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ClientEPet.swift; path = ePet/instance/controllers/ClientEPet.swift; sourceTree = SOURCE_ROOT; };
 		9234181527690D1D0099D7EF /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Address.swift; path = ePet/instance/controllers/Address.swift; sourceTree = SOURCE_ROOT; };
@@ -69,11 +65,9 @@
 		92CA85DB275522A70080AF88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92CA85DE275522A70080AF88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92CA85E0275522A70080AF88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5227098276ABE8900215AA9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E585306627552CEB00D6675B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		E5ADBE132764563900EC2025 /* PaymentView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PaymentView.storyboard; sourceTree = "<group>"; };
 		E5ADBE192766FC2100EC2025 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		E5ADBE1B2766FC7700EC2025 /* CardItemViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardItemViewCell.swift; sourceTree = "<group>"; };
-		E5ADBE1D2766FCD100EC2025 /* CardItemViewCell.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CardItemViewCell.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +134,6 @@
 		E58530602755296100D6675B /* storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				E5ADBE1D2766FCD100EC2025 /* CardItemViewCell.storyboard */,
 			);
 			path = storyboards;
 			sourceTree = "<group>";
@@ -148,7 +141,6 @@
 		E58530612755296700D6675B /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				E5ADBE1B2766FC7700EC2025 /* CardItemViewCell.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -156,7 +148,7 @@
 		E58530622755296E00D6675B /* models */ = {
 			isa = PBXGroup;
 			children = (
-				9234180C2769011D0099D7EF /* Person.swift */,
+				E5227098276ABE8900215AA9 /* User.swift */,
 				9234180F2769060D0099D7EF /* EmployeeEPet.swift */,
 				9234181227690C2C0099D7EF /* ClientEPet.swift */,
 				92341818276910C90099D7EF /* Product.swift */,
@@ -196,7 +188,6 @@
 			isa = PBXGroup;
 			children = (
 				92CA85D8275522A60080AF88 /* Main.storyboard */,
-				E5ADBE132764563900EC2025 /* PaymentView.storyboard */,
 				92AB71A9276561E400B8ED7F /* UserRegistrationView.storyboard */,
 				92333FD42766B2FB0093F288 /* ConsultAcquisitionView.storyboard */,
 				4C71FFA12766F6FE0059E5CC /* CartView.storyboard */,
@@ -265,14 +256,12 @@
 			files = (
 				92CA85DF275522A70080AF88 /* LaunchScreen.storyboard in Resources */,
 				4C71FFA52766F7100059E5CC /* ProductView.storyboard in Resources */,
-				E5ADBE142764563900EC2025 /* PaymentView.storyboard in Resources */,
 				4C71FFA22766F6FE0059E5CC /* CartView.storyboard in Resources */,
 				92333FD52766B2FB0093F288 /* ConsultAcquisitionView.storyboard in Resources */,
 				925A0723276704CF00A6177A /* ModifyRegistrationView.storyboard in Resources */,
 				92AB71AA276561E400B8ED7F /* UserRegistrationView.storyboard in Resources */,
 				92CA85DC275522A70080AF88 /* Assets.xcassets in Resources */,
 				92CA85DA275522A60080AF88 /* Main.storyboard in Resources */,
-				E5ADBE1E2766FCD100EC2025 /* CardItemViewCell.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +281,7 @@
 				9202B3D6276A9106000DD444 /* BankSlip.swift in Sources */,
 				9202B3CA276A857C000DD444 /* Beds.swift in Sources */,
 				92957410276912E70006F5EC /* Brand.swift in Sources */,
-				9234180D2769011D0099D7EF /* Person.swift in Sources */,
+				E5227099276ABE8900215AA9 /* User.swift in Sources */,
 				E585306727552CEB00D6675B /* LoginViewController.swift in Sources */,
 				92957413276917610006F5EC /* Food.swift in Sources */,
 				92A7B857276978F600B4560A /* LeafCategory.swift in Sources */,
@@ -303,7 +292,6 @@
 				92341819276910C90099D7EF /* Product.swift in Sources */,
 				92CA85D5275522A60080AF88 /* SceneDelegate.swift in Sources */,
 				9202B3D0276A8BD2000DD444 /* Payment.swift in Sources */,
-				E5ADBE1C2766FC7700EC2025 /* CardItemViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
