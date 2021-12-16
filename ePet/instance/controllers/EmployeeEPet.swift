@@ -12,7 +12,7 @@ class EmployeeEPet:Person{
     
     init(registrationDate: Date, name: String, birthDate: Date,cpf: Int,phoneNumber: Int,email: String, password: String){
         self.registrationDate = registrationDate
-        super.init(name: <#T##String#>, birthDate: <#T##Date#>, cpf: <#T##Int#>, phoneNumber: <#T##Int#>, email: <#T##String#>, password: <#T##String#>)
+        super.init(name: name, birthDate: birthDate, cpf: cpf, phoneNumber: phoneNumber, email: email, password: password)
         
     }
     

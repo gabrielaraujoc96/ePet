@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		4C71FFA22766F6FE0059E5CC /* CartView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C71FFA12766F6FE0059E5CC /* CartView.storyboard */; };
 		4C71FFA52766F7100059E5CC /* ProductView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C71FFA42766F7100059E5CC /* ProductView.storyboard */; };
+		9202B3CA276A857C000DD444 /* Beds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9202B3C9276A857C000DD444 /* Beds.swift */; };
+		9202B3CD276A8729000DD444 /* Grooming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9202B3CC276A8729000DD444 /* Grooming.swift */; };
+		9202B3D0276A8BD2000DD444 /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9202B3CF276A8BD2000DD444 /* Payment.swift */; };
+		9202B3D3276A8D7B000DD444 /* Credit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9202B3D2276A8D7B000DD444 /* Credit.swift */; };
+		9202B3D6276A9106000DD444 /* BankSlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9202B3D5276A9106000DD444 /* BankSlip.swift */; };
+		9202B3D9276A9283000DD444 /* WireTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9202B3D8276A9283000DD444 /* WireTransfer.swift */; };
 		92333FD52766B2FB0093F288 /* ConsultAcquisitionView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92333FD42766B2FB0093F288 /* ConsultAcquisitionView.storyboard */; };
 		9234180D2769011D0099D7EF /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9234180C2769011D0099D7EF /* Person.swift */; };
 		923418102769060D0099D7EF /* EmployeeEPet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9234180F2769060D0099D7EF /* EmployeeEPet.swift */; };
@@ -37,6 +43,12 @@
 /* Begin PBXFileReference section */
 		4C71FFA12766F6FE0059E5CC /* CartView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CartView.storyboard; sourceTree = "<group>"; };
 		4C71FFA42766F7100059E5CC /* ProductView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProductView.storyboard; sourceTree = "<group>"; };
+		9202B3C9276A857C000DD444 /* Beds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Beds.swift; path = ePet/instance/controllers/Beds.swift; sourceTree = SOURCE_ROOT; };
+		9202B3CC276A8729000DD444 /* Grooming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Grooming.swift; path = ePet/instance/controllers/Grooming.swift; sourceTree = SOURCE_ROOT; };
+		9202B3CF276A8BD2000DD444 /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Payment.swift; path = ePet/instance/controllers/Payment.swift; sourceTree = SOURCE_ROOT; };
+		9202B3D2276A8D7B000DD444 /* Credit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Credit.swift; path = ePet/instance/controllers/Credit.swift; sourceTree = SOURCE_ROOT; };
+		9202B3D5276A9106000DD444 /* BankSlip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BankSlip.swift; path = ePet/instance/controllers/BankSlip.swift; sourceTree = SOURCE_ROOT; };
+		9202B3D8276A9283000DD444 /* WireTransfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WireTransfer.swift; path = ePet/instance/controllers/WireTransfer.swift; sourceTree = SOURCE_ROOT; };
 		92333FD42766B2FB0093F288 /* ConsultAcquisitionView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConsultAcquisitionView.storyboard; sourceTree = "<group>"; };
 		9234180C2769011D0099D7EF /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Person.swift; path = ePet/instance/controllers/Person.swift; sourceTree = SOURCE_ROOT; };
 		9234180F2769060D0099D7EF /* EmployeeEPet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EmployeeEPet.swift; path = ePet/instance/controllers/EmployeeEPet.swift; sourceTree = SOURCE_ROOT; };
@@ -152,6 +164,12 @@
 				92A7B84C276970AD00B4560A /* Category.swift */,
 				92A7B84F276972E900B4560A /* CompositeCategory.swift */,
 				92A7B856276978F600B4560A /* LeafCategory.swift */,
+				9202B3C9276A857C000DD444 /* Beds.swift */,
+				9202B3CC276A8729000DD444 /* Grooming.swift */,
+				9202B3CF276A8BD2000DD444 /* Payment.swift */,
+				9202B3D2276A8D7B000DD444 /* Credit.swift */,
+				9202B3D5276A9106000DD444 /* BankSlip.swift */,
+				9202B3D8276A9283000DD444 /* WireTransfer.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -266,8 +284,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9234181627690D1D0099D7EF /* Address.swift in Sources */,
+				9202B3CD276A8729000DD444 /* Grooming.swift in Sources */,
+				9202B3D3276A8D7B000DD444 /* Credit.swift in Sources */,
 				92A7B850276972E900B4560A /* CompositeCategory.swift in Sources */,
+				9202B3D9276A9283000DD444 /* WireTransfer.swift in Sources */,
 				9234181327690C2C0099D7EF /* ClientEPet.swift in Sources */,
+				9202B3D6276A9106000DD444 /* BankSlip.swift in Sources */,
+				9202B3CA276A857C000DD444 /* Beds.swift in Sources */,
 				92957410276912E70006F5EC /* Brand.swift in Sources */,
 				9234180D2769011D0099D7EF /* Person.swift in Sources */,
 				E585306727552CEB00D6675B /* LoginViewController.swift in Sources */,
@@ -279,6 +302,7 @@
 				92A7B84D276970AD00B4560A /* Category.swift in Sources */,
 				92341819276910C90099D7EF /* Product.swift in Sources */,
 				92CA85D5275522A60080AF88 /* SceneDelegate.swift in Sources */,
+				9202B3D0276A8BD2000DD444 /* Payment.swift in Sources */,
 				E5ADBE1C2766FC7700EC2025 /* CardItemViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

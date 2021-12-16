@@ -20,13 +20,13 @@ class CompositeCategory:Category{
         categoryComponents.append(categoryComponent)
         
     }
-    override func remove(Id: Int) {
-        categoryComponents.remove(Id)
+    override func remove(categoryComponent: Category){
+        //categoryComponents.remove(categoryComponent)
     }
     
-    override func getList(categoryComponent: Category)->[Category]{
+    /* override func getList(categoryComponent: Category)->[Category]{
         return categoryComponents
-    }
+    }*/
     override func getName()->String{
         return name
     }

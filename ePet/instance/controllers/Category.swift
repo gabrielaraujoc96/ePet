@@ -10,20 +10,21 @@ import Foundation
 class Category{
     
     func getName()->String{
-    
+        return "Implementar"
     }
     func getDescription()->String{
-    
+        return "Implementar"
+        
     }
     func add(categoryComponent:Category){
         
     }
-    func remove(Id:Int){
+    func remove(categoryComponent: Category){
         
     }
-    func getList(categoryComponent:Category){
-        
-    }
+    /*func getList()->Category{
+        asseert(false, :"Implementar")
+    }*/
       
     
 }
